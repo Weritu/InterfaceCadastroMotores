@@ -1,0 +1,120 @@
+body{
+    background: #030063;
+    background: linear-gradient(90deg, rgba(3, 0, 99, 1) 0%, rgba(16, 16, 158, 1) 35%, rgba(17, 184, 217, 1) 100%);
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+nav{
+    background-color: #f9f9f9;
+    border-radius: 6px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10.1px);
+    -webkit-backdrop-filter: blur(10.1px);
+}
+
+nav .navbar{
+    display: flex;
+    gap: 30px;
+    padding: 15px;
+    margin: 20px;
+    justify-content: center;
+}
+
+nav .navbar li{
+    list-style: none;
+}
+
+
+
+nav .navbar li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.register-engine{
+
+    background-color: #f9f9f9;
+    margin: auto;
+    padding: 50px 0;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 60%;  
+    margin: auto; 
+}
+
+.register-engine input[type="text"]{
+    background: rgba(255, 255, 255, 0.4);
+    outline-style: none;
+    box-shadow: none;
+    width: 60%;           
+    height: auto;           
+    padding: 8px;
+    box-sizing: border-box;
+    /* border: none; */
+    border-color: black;
+}
+
+.register-engine input[type="submit"]{
+    
+    font-weight: bold;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #f9f9f9;
+    cursor: pointer;
+
+}
+
+.montagem-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 20px;
+  max-width: 600px;
+  margin: auto;
+}
+
+.produto-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 15px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.botoes {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-priorizar {
+  background-color: #007bff;
+  color: white;
+}
+
+.btn-finalizar {
+  background-color: #28a745;
+  color: white;
+}

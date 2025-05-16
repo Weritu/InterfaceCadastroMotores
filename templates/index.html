@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for('static', filename='styles.css')}}">
+    <title>Pagina Inicial</title>
+</head>
+<body>
+    <nav>
+        <ul class="navbar">
+            <li><a href="index.html">Cadastro de Motores</a></li>
+            <li><a href="fila.html">Fila de Montagem</a></li>
+        </ul>
+    </nav>
+
+    <main class="register-engine">
+        <form action="" class="container">
+            <label for="engine-type">Descricao Motor: </label>
+            <input type="text" name="engine-type" id="engine-type"><br>
+            <label for="engine-side">Lado a ser montado: </label>
+            <input type="text" name="engine-side" id="engine-side"><br>
+            <label for="qt-engine">Quantidade: </label>
+            <input type="text" name="qt-engine" id="qt-engine"><br>
+            <input type="submit" name="register" id="register" value="Cadastrar">
+        </form>
+    </main>
+
+
+</body>
+</html>
